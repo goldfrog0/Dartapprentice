@@ -6,11 +6,9 @@ void main(List<String> args) {
   const jb = User(id: 1, name: 'JB Lorenzo');
   print(jb.toString());
 
+  print(jb.id);
+
   const anon = User.anonymous();
   print(anon.toString());
 
-  final map = {'id': 10, 'name': 'Manda'};
-  final manda = User.fromJson(map);
-
-  print(manda.toString());
 }
