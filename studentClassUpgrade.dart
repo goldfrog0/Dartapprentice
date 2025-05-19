@@ -47,9 +47,5 @@ void main(List<String> args) {
   final jessie = SchoolBandMember('Jessie', 'Jones');
   final marty = StudentAthlete('Marty', 'McFly');
 
-  print(jessie is Object);
-  print(jessie is Person);
-  print(jessie is Student);
-  print(jessie is SchoolBandMember);
-  print(jessie is! StudentAthlete);
+
 }
