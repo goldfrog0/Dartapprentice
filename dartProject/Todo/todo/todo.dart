@@ -41,7 +41,7 @@ void main() {
   }
 
   while (true) {
-    stdout.write('Enter a command (add/delete/view/exit): ')
+    stdout.write('Enter a command (add/delete/view/exit): ');
   }
 
 }
